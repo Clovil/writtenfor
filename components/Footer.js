@@ -7,6 +7,7 @@ export default function Footer() {
         <div>
           <p>Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you</p>
         </div>
+        <br/>
         <div>
           <p>Shanghai Maluoke E-Commerce Co., Ltd.</p>
         </div>
