@@ -1,12 +1,14 @@
 import styles from './Footer.module.css'
 
-export default function Footer() {
+function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-          <p>Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you</p>
-          <p>Shanghai Maluoke E-Commerce Co., Ltd.</p>
+          Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you{"\n"}
+          Shanghai Maluoke E-Commerce Co., Ltd.
       </footer>
     </>
   )
 }
+
+export default Footer
